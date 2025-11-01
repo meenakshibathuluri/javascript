@@ -1,0 +1,86 @@
+
+Styles in JavaScript:
+
+    There are three types of styles in JavaScript.
+1.Inline styles
+2.Internal Styles
+3.External Styles
+
+
+Key Differences:
+
+Inline: Quick and specific to one element but harder to maintain.
+Internal: Useful for page-specific styles but not reusable across multiple pages.
+External: Best for reusability and maintainability, especially for large projects.
+
+Inline CSS: Applied directly within an HTML element's style attribute, affecting only that specific element.
+Internal CSS: Defined within a <style> tag in the <head> section of an HTML document, influencing the entire page.
+External CSS: Contained in a separate .css file linked to the HTML document, allowing for consistent styling across multiple pages.
+
+1.example for inline styles:
+
+<html>
+<body>
+    <h2 style="color: green; 
+               font-size: 18px;">
+        Welcome To GFG
+    </h2>
+    <p style="color: red; 
+              font-size: 14px;">
+        This is some text. style by inline CSS
+    </p>
+</body>
+</html>
+
+2.example for internal styles:
+
+<html>
+<head>
+    <style>
+        h1 {
+            color: blue;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        p {
+            color: green;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>GeeksForGeeks</h1>
+    <p>GeeksForGeeks</p>
+</body>
+
+</html>
+
+3.example for external style:
+
+<html>
+<head>
+    <link rel="stylesheet" 
+        type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the world</h1>
+    <p>Enjoy every day</p>
+</body>
+</html>
+
+Create a CSS file named styles.css and write all the codes in that CSS file
+
+File name: style.css
+
+
+h1 {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    color: green;
+    font-size: 16px;
+}

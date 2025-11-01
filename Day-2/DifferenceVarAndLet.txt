@@ -1,0 +1,7 @@
+
+Difference between var and let keywords:
+
+              Var                                                                          let
+1.we can declare same variable multiple time by using var.                     1.we can declare same variable only one time using let.
+2.Var is a global scope.                                                       2.Let variable ia blocked scope.
+3.We can access first and then declare variable by using var.                  3.We cannot access before declaring the  variable by using let.

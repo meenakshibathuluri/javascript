@@ -1,0 +1,16 @@
+
+HTML : 
+   HTML stands for Hyper Text Markup Language.It is a markup language used to create web pages.
+   It is like skeliton our body.
+
+CSS:
+  CSS stands for Cascading style sheet. By using CSS we can style our webpages by adding colour , size and many more.
+
+JavaScript:
+   JavaScript is a programming language for web.
+   JavaScript can update and change both HTML and CSS.
+
+Syntax:
+
+var a = 10;
+concole.log(a);
