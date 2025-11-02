@@ -1,0 +1,108 @@
+
+/*Operators:
+
+       JavaScript operators are symbols or keywords used to perform operations on values and variables. 
+       They are the building blocks of JavaScript expressions and can manipulate data in various ways.
+
+1. JavaScript Arithmetic Operators:
+
+Arithmetic Operators perform mathematical calculations like addition, subtraction, multiplication, etc.
+
+const sum = 5 + 3; // Addition
+const diff = 10 - 2; // Subtraction
+const p = 4 * 2; // Multiplication
+const q = 8 / 2; // Division
+console.log(sum, diff, p, q);
+
+Output:
+8 8 8 4
+
++ adds two numbers.
+- subtracts the second number from the first.
+* multiplies two numbers.
+/ divides the first number by the second.
+
+2. JavaScript Assignment Operators:
+
+Assignment operators are used to assign values to variables. They can also perform operations like addition or multiplication while assigning the value.
+
+
+let n = 10;
+n += 5;
+n *= 2;
+console.log(n);
+
+Output
+30
+
+= assigns a value to a variable.
++= adds and assigns the result to the variable.
+*= multiplies and assigns the result to the variable.
+
+
+3. JavaScript Comparison Operators:
+
+Comparison operators compare two values and return a boolean (true or false). They are useful for making decisions in conditional statements.
+
+
+console.log(10 > 5);
+console.log(10 === "10");
+
+Output
+true
+false
+
+> checks if the left value is greater than the right.
+=== checks for strict equality (both type and value).
+Other operators include <, <=, >=, and !==.
+
+
+4. JavaScript Logical Operators:
+
+Logical operators are mainly used to perform the logical operations that determine the equality or difference between the values.
+
+
+const a = true, b = false;
+console.log(a && b); // Logical AND
+console.log(a || b); // Logical OR
+
+Output:
+
+false
+true
+
+&& returns true if both operands are true.
+|| returns true if at least one operand is true.
+! negates the boolean value.
+
+5. JavaScript Bitwise Operators:
+
+Bitwise operators perform operations on binary representations of numbers.
+
+const res = 5 & 1; // Bitwise AND
+console.log(res);
+
+Output
+1
+& performs a bitwise AND.
+| performs a bitwise OR.
+^ performs a bitwise XOR.
+~ performs a bitwise NOT.
+
+
+6. JavaScript Unary Operators:
+
+Unary operators operate on a single operand (e.g., increment, decrement).
+
+
+let x = 5;
+console.log(++x); // Pre-increment
+console.log(x--); // Post-decrement (Output: 6, then x becomes 5)
+
+Output
+6
+6
+
+++ increments the value by 1.
+-- decrements the value by 1.
+typeof returns the type of a variable.*/
