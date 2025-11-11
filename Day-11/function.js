@@ -52,3 +52,32 @@ let addTwoNumbers = function (a,b){
     console.log(a+b);
 }
 addTwoNumbers(50,10);
+
+
+let arr = [6,7,8,9];
+//for (let i=0;i<arr.length;i++) {
+  //  console.log(arr[i]);
+//}
+
+//arr.forEach((val) => console.log(val));
+// arr.forEach(function (val)) {
+//console.log(val)
+//});
+
+function printVal(val) {
+    console.log("inside the function");
+    console.log(val);
+}
+
+// printVal(arr[0]);
+// printVal(arr[1]);
+// printVal(arr[2]);
+// printVal(arr[3]);
+
+//for (let i = 0;i<arr.length;i++) {
+// printVal(arr[i]);
+// }
+
+arr.forEach((val) => {
+    console.log(val);
+});
