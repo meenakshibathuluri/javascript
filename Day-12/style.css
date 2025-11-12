@@ -1,0 +1,19 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div1 {
+    background-color: palevioletred;
+}
+
+#div2 {
+    background-color: brown;
+}
+
+#div3 {
+     background-color: royalblue;
+}
