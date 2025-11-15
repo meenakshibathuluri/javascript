@@ -21,3 +21,9 @@ let secondDivElement = document.getElementById("secondDiv");
 secondDivElement.onmouseover = () => {
     console.log("Mouse hovered on the second div");
 };
+
+
+//let secondDivElement = document.getElementById("secondDiv");
+//secondDivElement.onmouseover = () => {
+  //  console.log("Mouse hovered on the second div");
+//};
