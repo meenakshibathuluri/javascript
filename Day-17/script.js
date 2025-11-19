@@ -1,6 +1,8 @@
 let boxes = document.querySelectorAll(".box");
 
-let turn0 = true;
+let winnerMessage = document.querySelector("winner-message");
+
+let turnO = true;
 
 let winningPatterns = [
     [0, 1, 2],
@@ -15,14 +17,22 @@ let winningPatterns = [
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
-        if (turn0) {
-            box.innerText = "0";
-            turn0 = false;
+        if (turnO) {
+            box.innerText = "O";
+            turnO = false;
             box.disabled = true;
         } else {
             box.innerText = "X";
-            turn0 = true;
+            turnO = true;
             box.disabled = true;
         }
+        winner();
     });
 });
+
+const showWinner = (winnerName) => {
+     winnerMessage.innerText = 'congratulations winner is $(winnerName)' ;
+     boxes.forEach((box) => {
+        box.disabled = true;
+     });   
+};
