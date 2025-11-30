@@ -10,34 +10,31 @@
     <div class="container">
        <h2>Currency Converter</h2>
        <form>
-           <div>
-               <label>Enter Amount</label>
-               <br />
-               <input type="text" value="1" />
-            </div>
-            <div>
+           <div class="amount">
+             <label>Enter Amount</label>
+             <br />
+             <input type="text" value="1" />
+           </div>
+            <div class="dropdown">
                 <div>
-                  <p>Form</p>
-                  <img src="https://flagsapi.com/IN/shiny/64.png"/>
-                  <select>
-                      <option value="INR">INR</option>
-                      <option value="USD" selected>USD</option>
-                      <option value="EU">EU</option>
-                  </select>
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" />
+                        <select name="form"></select>
+                    </div>
                 </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
                 <div>
-                   <p>To</p>
-                   <img src="https://flagsapi.com/US/shiny/64.png"/>
-                   <select>
-                      <option value="INR" selected>INR</option>
-                      <option value="USD">USD</option>
-                      <option value="EU">EU</option>
-                   </select>
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png"/>
+                        <select name="to"></select>
+                    </div>
                 </div>
             </div>
-            <div>1USD = 89.39INR</div>
-            <button>Get Exchange Rate</button>
        </form>
     </div>
+    <script src="script.js"></script>
+    <script src="codes.js"></script>
 </body>
 </html>
