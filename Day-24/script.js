@@ -3,9 +3,9 @@ const baseurl = "https://api.frankfurter.app/latest?";
 let dropdowns = document.querySelectorAll(".dropdown select");
 let button = document.querySelector("button");
 let input = document.querySelector("input");
-let fromCurrency = document.querySelector(". from select");
-let toCurrency = document.querySelector(". to select");
-let message = document.querySelector("message");
+let fromCurrency = document.querySelector(".from select");
+let toCurrency = document.querySelector(".to select");
+let message = document.querySelector(".message");
 for (let select of dropdowns) {
     for (let currencyCode in countryList) {
         let newOption = document.createElement("option");
