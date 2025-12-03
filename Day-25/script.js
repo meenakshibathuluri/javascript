@@ -60,3 +60,26 @@ function x() {
 const z = x();
 console.log(z);
 z();
+
+(function printHello() {
+  console.log("hello");
+})();
+
+(function addTwoNums (a,b) {
+  console.log(a + b);
+});
+
+const add = (a,b) => {
+  console.log(a + b);
+};
+
+const sub = (a,b) => {
+  console.log(a - b);
+};
+
+function caculator(a,b,fun) {
+   fun(a,b);
+}
+
+caculator(10, 20, add);
+caculator(20, 10, sub);
