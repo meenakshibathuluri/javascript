@@ -8,10 +8,8 @@ for(let i=1;i<=n;i++){
     }
 }
 
-if(factorsCount==2) {
-
+if(factorsCount==2){
     console.log(n + " Is a prime number");
-}
-else {
+}else{
     console.log(n + " Is not a prime number");
 }
