@@ -30,7 +30,7 @@ let str1 = "hello";
 let str2 = "world";
 console.log(str1.concat(str2));
 
-console.log("------------------Trim-----------------------");
+console.log("----------Trim--------------");
 let data = "  hello world ";
 console.log(data.length);
 data = data.trimEnd();
