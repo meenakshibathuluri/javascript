@@ -38,8 +38,20 @@ data = data.trimEnd();
 console.log(data.length);
 console.log(data); */
 
-let text = "Hello World";
-structuredClone.repeat(2);
+let str = "Hello World";
+/* console.log(str.repeat(2));
 
-let text = "meenakshi";
-replace("mom","sister");
+let text = "i am meena,meena was studing in mits";
+console.log(text);
+text = text.replaceAll("meena","meeakshi");
+console.log(text);
+let res = str.slice(0,3);
+console.log(res);
+
+console.log("a".charCodeAt());
+console.log("B".charCodeAt());
+
+let val = 97;
+console.log(String.fromCharCode(val));*/
+
+let text = 5;
