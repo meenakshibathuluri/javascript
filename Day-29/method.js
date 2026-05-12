@@ -1,4 +1,4 @@
-let str = "hello world";
+/* let str = "hello world";
 console.log(str);
 console.log(str.charAt(2));
 
@@ -36,4 +36,10 @@ console.log(data.length);
 data = data.trimEnd();
 
 console.log(data.length);
-console.log(data);
+console.log(data); */
+
+let text = "Hello World";
+structuredClone.repeat(2);
+
+let text = "meenakshi";
+replace("mom","sister");
