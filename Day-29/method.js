@@ -46,12 +46,12 @@ console.log(text);
 text = text.replaceAll("meena","meeakshi");
 console.log(text);
 let res = str.slice(0,3);
-console.log(res);
+console.log(res);*/
 
 console.log("a".charCodeAt());
 console.log("B".charCodeAt());
 
 let val = 97;
-console.log(String.fromCharCode(val));*/
+console.log(String.fromCharCode(val));
 
 let text = 5;
