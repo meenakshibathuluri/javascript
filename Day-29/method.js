@@ -39,14 +39,14 @@ console.log(data.length);
 console.log(data); */
 
 let str = "Hello World";
-/* console.log(str.repeat(2));
+ console.log(str.repeat(2));
 
 let text = "i am meena,meena was studing in mits";
 console.log(text);
 text = text.replaceAll("meena","meeakshi");
 console.log(text);
 let res = str.slice(0,3);
-console.log(res);*/
+console.log(res);
 
 console.log("a".charCodeAt());
 console.log("B".charCodeAt());
