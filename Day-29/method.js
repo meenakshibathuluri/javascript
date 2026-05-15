@@ -24,7 +24,7 @@ console.log(message.toUpperCase());
 console.log(message.toLowerCase());
 console.log(message.at(2));
 
-console.log(message.length);
+console.log(message.length);*/
 
 let str1 = "hello";
 let str2 = "world";
@@ -36,7 +36,7 @@ console.log(data.length);
 data = data.trimEnd();
 
 console.log(data.length);
-console.log(data); */
+console.log(data); 
 
 let str = "Hello World";
  console.log(str.repeat(2));
