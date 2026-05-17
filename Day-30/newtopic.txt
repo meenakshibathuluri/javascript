@@ -6,7 +6,8 @@
                             2. function = {1,2,3,......n}
     2.code : 1.this is the place where the code is executed line by line.
               2.it is also called as thread of execution
-3.javascript is a synchronous single-threaded language means one comand at a time in paticular order and present lime is executed after that it will goto next line 
+3.javascript is a synchronous single-threaded language means one comand at a time
+ in paticular order and present lime is executed after that it will goto next line 
 
 4.what happens when you run javascript code?
 examples : 
