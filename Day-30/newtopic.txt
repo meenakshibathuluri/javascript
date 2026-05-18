@@ -1,16 +1,21 @@
 1. everything in script happens inside an execution context
+
 2.execution context is divide into two types
+
     1.memory : 1.were the all composets and variable store in the form of keyword. 
                2.it is also called as variable enviroment
                3.examples : 1. a = 10;
                             2. function = {1,2,3,......n}
+
     2.code : 1.this is the place where the code is executed line by line.
               2.it is also called as thread of execution
+
 3.javascript is a synchronous single-threaded language means one comand at a time
  in paticular order and present lime is executed after that it will goto next line 
 
 4.what happens when you run javascript code?
 examples : 
+
 var n = 2;
 function square (num) {
     var ans = num * num;
