@@ -43,6 +43,8 @@ var square4 = square(4);
 //   }
 //   factorial(4);
 // }
+
+// print prime or not
 function prime(n, i) {
   if (n % i === 0) {
     console.log(n + "number is prime");
