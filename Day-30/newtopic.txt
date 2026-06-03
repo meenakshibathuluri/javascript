@@ -24,8 +24,6 @@ function square (num) {
 var square2 = square(n);
 var square4 = square(4);
 
-
-
 // let a = 10;
 // let b = 20;
 // console.log(a + b);
